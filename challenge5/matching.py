@@ -2,9 +2,7 @@ import cv2
 import math
 from glob import glob
 import numpy as np
-import matplotlib.pyplot as plt
 from trianglesolver import solve, degree
-import albumentations as A
 import torch
 import random
 from load import *
@@ -52,7 +50,7 @@ def compareBorder(img,c):
 def lowest(images,q,down= False):
     scores = []
     for i in images:
-        c = getBorders(i,1)
+        c = getBorders(i,0)
         if down:
             c = [np.flip(i,1) for i in c]
         scores.append(compareBorder(q,c))
@@ -74,7 +72,7 @@ def findN(start_image,images,x_num,d = 0,last = None,remove = True,asList = Fals
         axis = 1
     for i in range(x_num-1):
         if images.shape[0] != 0:
-            img = getBorders(last_image,1,d)
+            img = getBorders(last_image,0,d)
             image_index, rot, confidence = lowest(images,img,False if d== bottom or d == top else True)
             last_image = images[image_index]
             if remove:
