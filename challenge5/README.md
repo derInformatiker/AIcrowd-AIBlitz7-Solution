@@ -3,6 +3,7 @@ To make a submission put the data into /data and run all cells of findMatches.ip
 The data should be
 
 data/train/CorruptedImages
+
 data/train/Labels
 
 ...
