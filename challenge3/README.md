@@ -3,3 +3,5 @@
 3. Change the path of the saved model in the evaluation cell. The line is marked with a comment.
 
 The leaderbord score may have a deviation of around 0.001. This is caused by different cuda settings.
+
+For that reason i have uploaded my weights for my best score on Google Drive.
