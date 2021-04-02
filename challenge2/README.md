@@ -6,4 +6,4 @@ data/test
 
 data/val
 
-+ .csv data
+and .csv data
