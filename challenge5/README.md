@@ -6,4 +6,12 @@ data/train/CorruptedImages
 
 data/train/Labels
 
+data/val/CorruptedImages
+
+data/val/Labels
+
+data/test/CorruptedImages
+
+data/test/Labels
+
 ...
