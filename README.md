@@ -5,3 +5,5 @@ In this repository there are my solutions to each problem. I only uploaded the c
 ### Hyperparameters shouldn't be changed also the batch size!!! A change will end up in a decrease in perfomance.
 
 For each challenge there is a requirements.txt with the version I had at solving these tasks. To make sure that it works you should install the packages with the same version
+
+My operating system is Windows 10. May not work at other.
