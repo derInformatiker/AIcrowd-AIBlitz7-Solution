@@ -12,4 +12,4 @@ data/val.csv
 
 data/sample_submission.csv
 
-Run all cells in run_all.ipynb to train and make a submission.
+Run all cells in run_all.ipynb to train and to make a submission.
