@@ -8,6 +8,8 @@ data/test/0.jpg, ...
 
 data/train.csv
 
-...
+data/val.csv
+
+data/sample_submission.csv
 
 Run all cells in run_all.ipynb to train and make a submission.
