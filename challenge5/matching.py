@@ -7,7 +7,6 @@ import torch
 import random
 from load import *
 
-#TOP, LEFT, BOTTOM, RIGHT
 left = 0
 bottom = 1
 right = 2
